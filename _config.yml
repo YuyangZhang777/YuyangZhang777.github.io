@@ -1,0 +1,364 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Yuyang Zhang
+title: Master student at Peking University, China
+email: yuyangzhang@stu.pku.edu.cn
+website: YuyangZhang777.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+# github_username:  sproogen
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I'm currently a third year master student in Peking University,
+  specializing in robotics. I work in Meng's lab, led by Assistant Professor Meng Guo. 
+  
+  My research includes multi-robot systems, human-robot collaboration, and task and motion planning for robots. 
+  I have published two papers in top conferences(**CDC** and **RSS**), and my third paper is currently under review at **ICRA**. 
+  I have worked on many robotics projects and am familiar with <mark>ROS</mark>.
+  I have designed and developed many algorithms and carried out a lot of simulation and real robots experiments on <mark>UGVs</mark> and <mark>UAVs</mark>.
+ # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Peking University
+        caption: Sep 2022 - Current
+        sub_title: Master's Degree, Robotics
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          I'm currently a third year master student at College of Engineering, Peking University, China,
+          specializing in robotics in the Department of Mechanical Engineering. I will graduate in June 2025. 
+          During the two and a half year, I have worked on many robotics projects and papers, 
+          designed and developed many algorithms and accumulated a plenty of experiment experience both in simulation and real robots.
+      - layout: left
+        title: Zhejiang Sci-Tech University
+        caption: Sep 2014 - Jun 2018
+        sub_title: Bachelor's Degree, Digital media technology
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          I studied in ZSTU and majored in digital media technology. It's a interdisciplinary major that includes computer science and art design. 
+          After four years study, I become both a programmer and a designer. 
+          I mastered many Adobe softwares such as Illustrator, Photoshop, Premier and so on, which I believe are essential skills for academic paper writing.
+
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Papers
+        # link: github.com/sproogen
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          - #### **Yuyang Zhang\***, Zhuoli Tian\*, Jinsheng Wei, Meng Guo. FlyKites: Human-centric Interactive Exploration and Assistance under Limited Communication. IEEE International Conference on Robotics and Automation (**ICRA**), Atlanta, USA, 2025. (**Under review**)
+          <br>
+
+          <div align = "center">
+            <img src="/images/icra.jpg" width="75%" align="center"/>
+          </div>
+          <br>
+
+          *This work presents a human-centric interactive exploration and assistance framework under limited communication. 
+          Robots can switch between exploration mode and assistance mode. 
+          Robots in assistance mode can form a communication chain, enabling human operator to assist 
+          and interact with robots in various multimedia ways, such as video transmission and remote control.*
+          <br>
+
+          <br>
+          - ####  Zhuoli Tian, **Yuyang Zhang**, Jinsheng Wei, Meng Guo. [iHERO: Interactive Human-oriented Exploration and Supervision Under Scarce Communication. ](https://arxiv.org/abs/2405.12571) Robotics: Science and Systems(**RSS**), Delft, Netherlands, 2024.
+          <br>
+
+          <div align = "center">
+            <img src="/images/rss.jpg" width="75%" align="center"/>
+          </div>
+          <br>
+
+          *This work proposes an interactive human-oriented online coordination framework for
+          collaborative exploration and supervision under scarce communication. The human operator 
+          can get updated data in time, prioritize certain region and move within the explored area.*
+          <br>
+
+          <br>
+          - #### **Yuyang Zhang**, Meng Guo. [Online Planning of Uncertain MDPs under Temporal Tasks and Safe Return Constraints. ](https://ieeexplore.ieee.org/abstract/document/9993378) IEEE Conference on Decision and Control (**CDC**), Cancun, Mexico, 2022.
+          <br>
+
+          <div align = "center">
+            <img src="/images/cdc.png" width="75%" align="center"/>
+          </div>
+          <br>
+
+          *This work addresses the online motion planning problem of mobile robots under complex high-level tasks.
+          The robot motion is modeled as an uncertain Markov Decision Process while the tasks are specified as LTL formulas.*
+          The proposed framework enabling the robot to explore and update in a Bayesian way and a safe-return requirement is enforced.
+          <br>
+
+      - layout: top-middle
+        title: Patent
+        # link: github.com/sproogen
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          - ####  Meng Guo, **Yuyang Zhang**, Zhuoli Tian, Jinsheng Wei. System, method and device for multi-robot collaborative exploration, **Patent**, ZL 2024 1 0642067.9, 2024.08.09.
+          <br>
+
+      - layout: top-middle
+        title: Thesis
+        # link: github.com/sproogen
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          - #### **YuyangZhang**, YaoJin. Development of an AR-based Sketch-style Ceramic Modeling System. **Bachelor Thesis**, Zhejiang Sci-Tech University, 2018. ("One hundred Outstanding Bachelor's Theses" award of Zhejiang Sci-Tech University)
+          <br>
+
+          <div align = "center">
+            <img src="/images/bachelor.png" width="50%" align="center"/>
+          </div>
+          <br>
+
+          *I developed an Android application to recognize the semantic information from a user's sketch and generate a 3D ceramic model 
+          to assist the ceramic design.*
+          <br>
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Human-robot collaborative exploration and task planning
+        description: | # this will include new lines to allow paragraphs
+          This project focuses on how to leverage the human operator's abilities to facilitate the multi-robot system in exploring and performing other tasks.
+          As the main person in charge of the project, I participated in the literature research,
+          design of algorithm and experiment, and carried out the simulation and real robots experiments.
+          <br>
+
+          <div align = "center">
+            <img src="/images/1.gif" width="50%" align="center"/>
+          </div>
+          <br>
+
+      - layout: top-middle
+        title: Decomposition and planning of complex tasks described by natural language
+        description: | # this will include new lines to allow paragraphs
+          This project focuses on how to use natural language to interact with a multi-robot task planning system.
+          I participated in the design of algorithms for natural language input and decomposition of complex tasks.
+          <br>
+
+      - layout: top-middle
+        title: Multi-robot dynamic capture
+        description: | # this will include new lines to allow paragraphs
+          This project focuses on the dynamic capture policies in multi-robot pursuit and evasion game.
+          I took part in the software interface design, code testing and real robots experiments.
+          <br>
+
+          <div align = "center">
+            <img src="/images/2.gif" width="30%" align="center"/>
+          </div>
+          <br>
+
+      - layout: top-middle
+        title: Multi-robot exploration and inspection
+        description: | # this will include new lines to allow paragraphs
+          This project focuses on how to use heterogeneous UAVs to explore and inspect the interesting region.
+          I participated in the literature research and design of path planning part.
+          <br>
+
+          <div align = "center">
+            <img src="/images/3.gif" width="50%" align="center"/>
+          </div>
+          <br>
+
+      - layout: top-middle
+        title: Deadlock resolution in multi-robot trajectory generation
+        description: | # this will include new lines to allow paragraphs
+          This project focuses on how to generate collision-free trajectories in multi-robot motion planning.
+          I took part in the real robots experiments.
+          <br>
+
+      - layout: top-middle
+        title: Sketch-style ceramic modeling system
+        description: | # this will include new lines to allow paragraphs
+          This project focuses on how to recognize the semantic information from a user's sketch and generate a 3D ceramic model.
+          This is the project for my bachelor thesis, which I completed on my own.
+          <br>
+
+          <div align = "center">
+            <img src="/images/4.gif" width="20%" align="center"/>
+          </div>
+          <br>
+
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Experiments
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        # caption: November 2017 - Present
+        description: | # this will include new lines to allow paragraphs
+            Design and implementation of robotics algorithms, rich experience in simulation and real robots experiments.
+
+      - layout: left
+        title: Languages
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        # caption: November 2017 - Present
+        description: | # this will include new lines to allow paragraphs
+            Mandarin (native), English (fluent).
+
+      - layout: left
+        title: Coding
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        # caption: November 2017 - Present
+        description: | # this will include new lines to allow paragraphs
+            Python, C/C++, Java, ROS development, Android development, Web development.
+      
+      - layout: left
+        title: Others
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        # caption: November 2017 - Present
+        description: | # this will include new lines to allow paragraphs
+            Video creation, Photoshop, Illustrator, after effects, game design and development, 3D modeling.
+
+
+  - title: Honors and Awards # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: right
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        caption: Oct 2024
+        description: | # this will include new lines to allow paragraphs
+          - **Academic scholarship**, College of Engineering, Peking University
+
+      - layout: right
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        caption: Oct 2023
+        description: | # this will include new lines to allow paragraphs
+          - **Outstanding Scientific Research Award**, College of Engineering, Peking University.
+          - **Academic scholarship**, College of Engineering, Peking University.
+
+      - layout: right
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        caption: Jun 2018
+        description: | # this will include new lines to allow paragraphs
+          - **Outstanding graduates of Zhejiang Sci-Tech University**, Zhejiang Sci-Tech University.
+          - **"One hundred Outstanding Bachelor Papers" Award of Zhejiang Sci-Tech University**, Zhejiang Sci-Tech University.
+
+      - layout: right
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        caption: Nov 2017
+        description: | # this will include new lines to allow paragraphs
+          - **Third-class Scholarship**, Zhejiang Sci-Tech University.
+      
+      - layout: right
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        caption: Nov 2016
+        description: | # this will include new lines to allow paragraphs
+          - **Merit student**, Zhejiang Sci-Tech University.
+          - **Second-class Scholarship**, Zhejiang Sci-Tech University.
+
+      - layout: right
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        caption: Nov 2015
+        description: | # this will include new lines to allow paragraphs
+          - **Second-class Scholarship**, Zhejiang Sci-Tech University.
+
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
