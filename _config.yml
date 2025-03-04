@@ -54,7 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
   specializing in robotics. I work in Meng's lab, led by Assistant Professor Meng Guo. 
   
   My research includes multi-robot systems, human-robot collaboration, and task and motion planning for robots. 
-  I have published two papers in top conferences(**CDC** and **RSS**), and my third paper is currently under review at **ICRA**. 
+  I have published two papers in top conferences(**CDC** and **RSS**), and my third paper is currently accepted at **ICRA**. 
   I have worked on many robotics projects and am familiar with <mark>ROS</mark>.
   I have designed and developed many algorithms and carried out a lot of simulation and real robots experiments on <mark>UGVs</mark> and <mark>UAVs</mark>.
  # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
@@ -102,7 +102,7 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          - #### **Yuyang Zhang\***, Zhuoli Tian\*, Jinsheng Wei, Meng Guo. FlyKites: Human-centric Interactive Exploration and Assistance under Limited Communication. IEEE International Conference on Robotics and Automation (**ICRA**), Atlanta, USA, 2025. (**Under review**)
+          - #### **Yuyang Zhang\***, Zhuoli Tian\*, Jinsheng Wei, Meng Guo. FlyKites: Human-centric Interactive Exploration and Assistance under Limited Communication. IEEE International Conference on Robotics and Automation (**ICRA**), Atlanta, USA, 2025. (**Accepted**)
           <br>
 
           <div align = "center">
