@@ -51,10 +51,10 @@ darkmode: false
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm currently a third year master student in Peking University,
-  specializing in robotics. I work in Meng's lab, led by Assistant Professor Meng Guo. 
+  specializing in robotics and about to graduate this summer. I work in Meng's lab, led by Assistant Professor Meng Guo. 
   
-  My research includes multi-robot systems, human-robot collaboration, and task and motion planning for robots. 
-  I have published two papers in top conferences(**CDC** and **RSS**), and my third paper is currently accepted at **ICRA**. 
+  My research includes multi-robot systems, human-robot collaboration and interaction, and task and motion planning for robots. 
+  I have published three papers(**ICRA 2025**, **RSS 2024** and **CDC 2022**) in top conferences.
   I have worked on many robotics projects and am familiar with <mark>ROS</mark>.
   I have designed and developed many algorithms and carried out a lot of simulation and real robots experiments on <mark>UGVs</mark> and <mark>UAVs</mark>.
  # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
@@ -71,8 +71,9 @@ content:
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           I'm currently a third year master student at College of Engineering, Peking University, China,
-          specializing in robotics in the Department of Mechanical Engineering. I will graduate in June 2025. 
-          During the two and a half year, I have worked on many robotics projects and papers, 
+          specializing in robotics in the Department of Mechanical Engineering. 
+          Recently I already finished my thesis and will graduate in June 2025. 
+          During the three years, I have worked on many robotics projects and papers, 
           designed and developed many algorithms and accumulated a plenty of experiment experience both in simulation and real robots.
       - layout: left
         title: Zhejiang Sci-Tech University
@@ -102,7 +103,7 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          - #### **Yuyang Zhang\***, Zhuoli Tian\*, Jinsheng Wei, Meng Guo. FlyKites: Human-centric Interactive Exploration and Assistance under Limited Communication. IEEE International Conference on Robotics and Automation (**ICRA**), Atlanta, USA, 2025. (**Accepted**)
+          - #### **Yuyang Zhang\***, Zhuoli Tian\*, Jinsheng Wei, Meng Guo. FlyKites: Human-centric Interactive Exploration and Assistance under Limited Communication. IEEE International Conference on Robotics and Automation (**ICRA**), Atlanta, USA, 2025.
           <br>
 
           <div align = "center">
@@ -175,7 +176,27 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          - #### **YuyangZhang**, YaoJin. Development of an AR-based Sketch-style Ceramic Modeling System. **Bachelor Thesis**, Zhejiang Sci-Tech University, 2018. ("One hundred Outstanding Bachelor's Theses" award of Zhejiang Sci-Tech University)
+          - #### **Yuyang Zhang**, Meng Guo. Research on Bidirectional Multi-Source Interaction Methods Between Human and Multi-Agent in Complex Environments
+          <br>
+
+          *I proposes a bidirectional multi-source interaction framework between human and multi-agent systems under two types of complex environments.*
+          <br>
+
+      - layout: top-middle
+        title: Thesis
+        # link: github.com/sproogen
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          - #### **Yuyang Zhang**, Yao Jin. Development of an AR-based Sketch-style Ceramic Modeling System. **Bachelor Thesis**, Zhejiang Sci-Tech University, 2018. ("One hundred Outstanding Bachelor's Theses" award of Zhejiang Sci-Tech University)
           <br>
 
           <div align = "center">
@@ -300,10 +321,10 @@ content:
         # link: boringcompany.com
         # link_text: boringcompany.com
         # sub_title: Senior Network System Administrator
-        caption: Oct 2024
+        caption: Apr 2025
         description: | # this will include new lines to allow paragraphs
-          - **Academic scholarship**, College of Engineering, Peking University
-
+          - **Outstanding graduates of Peking University**, Peking University
+      
       - layout: right
         # link: boringcompany.com
         # link_text: boringcompany.com
