@@ -176,27 +176,14 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          - #### **Yuyang Zhang**, Meng Guo. Research on Bidirectional Multi-Source Interaction Methods Between Human and Multi-Agent in Complex Environments
+          - #### **Yuyang Zhang**, Meng Guo. Research on Bidirectional Multi-Source Interaction Methods Between Human and Multi-Agent in Complex Environments. Master Thesis, Peking University, 2025.
           <br>
 
           *I proposed a bidirectional multi-source interaction framework between human and multi-agent systems under two types of complex environments.*
           <br>
 
-      - layout: top-middle
-        title: Thesis
-        # link: github.com/sproogen
-        # link_text: Project Website
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          - #### **Yuyang Zhang**, Yao Jin. Development of an AR-based Sketch-style Ceramic Modeling System. **Bachelor Thesis**, Zhejiang Sci-Tech University, 2018. ("One hundred Outstanding Bachelor's Theses" award of Zhejiang Sci-Tech University)
+          <br>
+          - #### **Yuyang Zhang**, Yao Jin. Development of an AR-based Sketch-style Ceramic Modeling System. Bachelor Thesis, Zhejiang Sci-Tech University, 2018. ("One hundred Outstanding Bachelor's Theses" award of Zhejiang Sci-Tech University)
           <br>
 
           <div align = "center">
