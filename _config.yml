@@ -318,7 +318,7 @@ content:
         # sub_title: Senior Network System Administrator
         caption: Oct 2024
         description: | # this will include new lines to allow paragraphs
-          - **Academic scholarship**, College of Engineering, Peking University.
+          - **Academic scholarship**, Peking University.
 
       - layout: right
         # link: boringcompany.com
@@ -326,8 +326,8 @@ content:
         # sub_title: Senior Network System Administrator
         caption: Oct 2023
         description: | # this will include new lines to allow paragraphs
-          - **Outstanding Scientific Research Award**, College of Engineering, Peking University.
-          - **Academic scholarship**, College of Engineering, Peking University.
+          - **Outstanding Scientific Research Award**, Peking University.
+          - **Academic scholarship**, Peking University.
 
       - layout: right
         # link: boringcompany.com
